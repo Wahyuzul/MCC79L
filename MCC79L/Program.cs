@@ -15,6 +15,7 @@ public class Program
         connection = new SqlConnection(connectionString);
 
         Console.WriteLine("Hello Word");
+        Console.WriteLine("ini branch");
         menu();
 
         //get all country
