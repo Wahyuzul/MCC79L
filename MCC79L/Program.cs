@@ -4,7 +4,8 @@ using System.Data;
 using System.Data.SqlClient;
 
 public class Program
-{
+{   
+ 
     //Connection Global
     public static string connectionString = "Data Source=DESKTOP-K75VUCD;Database=db_hr;Integrated Security=True;Connect Timeout=30;";
 
@@ -13,7 +14,7 @@ public class Program
     {   //database connectivity
         connection = new SqlConnection(connectionString);
 
-
+        Console.WriteLine("Hello Word");
         menu();
 
         //get all country
